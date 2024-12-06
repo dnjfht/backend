@@ -19,3 +19,6 @@ function send(url, data) {
 
 // module을 내보내는 방법이 여러 가지 있지만, 이 방법이 가장 좋은 방법.
 module.exports = { send };
+
+// ECMAScript module에서 module을 내보내는 방법.
+// export { send };
