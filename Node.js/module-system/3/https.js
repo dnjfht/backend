@@ -1,5 +1,7 @@
 const request = require("./request.js");
 const response = require("./response.js");
+const { read } = require("./response.js");
+// 구조분해 할당을 통하여 바로 가져와서 사용해도.
 
 function makeRequest(url, data) {
   // 요청을 보내기
