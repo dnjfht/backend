@@ -7,4 +7,6 @@ function read() {
   return decrypt("data");
 }
 
-module.exports = { read };
+console.log("We are in the response module");
+
+module.exports = { read, decrypt };
